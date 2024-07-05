@@ -19,7 +19,7 @@ const Contact = () => {
 <p className='text-white text-[2rem] ml-[20px]'>Give Us a Call: <br></br> 123-456-789</p>
 </div>
 
-    <div className='w-[350px] top-[-50px] absolute limited  max-lg:top-[-100px] max-lg:w-[200px]'>
+    <div className='w-[450px] top-[-50px] absolute limited  max-lg:top-[-100px] max-lg:w-[200px]'>
     <img src={dish} className='object-cover drop-shadow-lg'/>
     </div>
 </div>
