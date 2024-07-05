@@ -69,20 +69,20 @@ const Recipes = () => {
         </div>
 
         <div className='w-[300px] h-auto bg-white relative text-center rounded-[20px] p-[20px] shadow-lg max-lg:m-auto'>
-         <h2 className='font-semibold text-[1.3rem] mt-[20px] mb-[20px]'>Healthy Veggie <br></br> Ramen</h2>
+         <h2 className='font-semibold text-[1.3rem] mt-[20px] mb-[20px]'>Veggie Delight Pizza </h2>
          <ul className='leading-8 w-[250px] m-auto'>
-          <li>2 cups vegetable broth</li>
-          <li>1 cup water</li>
-          <li>1 package whole wheat ramen noodles</li>
-          <li>1 cup sliced mushrooms</li>
-          <li>1 cup baby spinach</li>
-          <li>1/2 cup shredded carrots</li>
-          <li>1/2 cup sliced bell pepper</li>
-          <li>2 cloves garlic, minced</li>
-          <li>1 tbsp soy sauce (low sodium)</li>
-          <li>1 tsp sesame oil</li>
-          <li>1/2 tsp ginger, grated</li>
-          <li>1 green onion, chopped</li>
+          <li>1/2 cup tomato sauce </li>
+          <li>1 clove garlic, minced</li>
+          <li>1 teaspoon dried oregano</li>
+          <li>1 teaspoon dried basil</li>
+          <li>1 cup baby spinach leaves</li>
+          <li>1/2 cup sliced bell peppers</li>
+          <li>1/2 cup sliced mushrooms</li>
+          <li>1/4 cup sliced red onion</li>
+          <li>1/2 cup cherry tomatoes, halved</li>
+          <li>/4 cup black olives, sliced</li>
+          <li>1/2 cup shredded part-skim mozzarella cheese</li>
+          <li>1/4 cup crumbled feta cheese</li>
          </ul>
          <div className='absolute w-[130px] h-[100px] rounded-[50px] right-[-40px] top-[-40px]'>
          <img src={pizza} 
