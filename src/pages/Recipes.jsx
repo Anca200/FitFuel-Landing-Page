@@ -16,7 +16,7 @@ const Recipes = () => {
    <>
    <div
    id="recipes"
-   className='w-full h-auto mt-[200px] items-center text-[#1B5E20]'>
+   className='w-full h-auto mt-[200px] items-center text-[#004d2eb3]'>
     <h2 className='text-center text-[3rem] font-bold'>Recipes</h2>
 
     <div className='flex justify-center gap-[50px] mt-[100px] max-lg:flex-col max-lg:m-auto'>
