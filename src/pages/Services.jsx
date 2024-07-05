@@ -12,13 +12,13 @@ const Services = () => {
 <>
 <div
 id="services"
-className='w-full h-[130vh] bg-[#004d2eb3] mt-[150px] overflow-hidden items-center max-lg:h-auto'>
+className='w-full h-auto bg-[#004d2eb3] mt-[150px] items-center max-lg:h-auto text-center'>
   <h2 
         data-aos="fade-up"
   className='text-center font-bold text-[3rem] mt-[10px] text-[white]'>Our Service</h2>
 <div
       data-aos="fade-up"
-className='grid grid-cols-3 text-center gap-y-[100px] mt-[80px] ml-[100px] max-lg:grid-cols-1 max-lg:ml-[20px] '>
+className='grid grid-cols-3 text-center]  gap-y-[100px] mt-[50px] ml-[100px] max-lg:grid-cols-1 max-lg:ml-[20px]  pb-[10px]'>
 
 <div className='w-[400px] h-[300px] bg-white flex flex-col rounded-[20px] shadow-xl text-[#1B5E20] max-lg:w-[95%] '>
  <h2 className='font-semibold text-[1.4rem] mt-[40px] mb-[30px] '>Personalized Nutrition Plans</h2>
@@ -66,7 +66,7 @@ className='grid grid-cols-3 text-center gap-y-[100px] mt-[80px] ml-[100px] max-l
  />
 </div>
 
-<div className='w-[400px] h-[300px] bg-white rounded-[20px] shadow-xl text-[#1B5E20] max-lg:w-[95%] max-lg:mb-[20px]'>
+<div className='w-[400px] h-[300px] bg-white rounded-[20px] shadow-xl text-[#1B5E20]  max-lg:w-[95%] max-lg:mb-[20px]'>
  <h2 className='font-semibold text-[1.4rem] mt-[40px]'> Meal Planning and Preparation Guidance
  </h2>
  <p className='leading-7 w-[300px] m-auto'>Advice on how to plan and prepare healthy meals, including recipes and cooking tips.</p>

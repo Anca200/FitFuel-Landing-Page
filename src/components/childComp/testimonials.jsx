@@ -13,7 +13,7 @@ export function InfiniteMovingCardsDemo() {
         data-aos="fade-up"
     id="testimonials"
     className="h-auto rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden mt-[100px] ">
-      <h2 className="font-bold text-[3rem] mb-[100px] text-[#004d2eb3]">Success Stories</h2>
+      <h2 className="font-bold text-[3rem] mb-[100px] text-[#004d2eb3]">Success stories</h2>
 
       <InfiniteMovingCards
         items={testimonials}
