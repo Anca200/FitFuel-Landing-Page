@@ -1,10 +1,7 @@
 import React from 'react';
 import hero_img from "../assets/hero_img2.png";
 import leaf3 from "../assets/leaf3.png"
-import leaf1 from "../assets/leaf1.png"
 import leaf2 from "../assets/leaf2.png"
-import leaf4 from "../assets/leaf4.png"
-
 
 const Hero = () => {
   return (
@@ -17,7 +14,7 @@ const Hero = () => {
       <p className='leading-7 text-center'>
         Unlock the secrets to a healthier, happier you with our expert-guided nutrition plans. Whether you're looking to boost energy, manage weight, or improve overall wellness, our tailored approach ensures you get the right nutrients for your unique lifestyle. Start your journey today and transform your health one meal at a time.
         </p>
-        <button className=' w-[180px] h-[40px] rounded-[20px] mt-[50px] ml-[200px] border-2 border-[#36c23f] max-lg:ml-0 text-[1.1rem] font-semibold'>Explore Plan</button>
+      <a href="#prices"><button className=' w-[180px] h-[40px] rounded-[20px] mt-[50px] ml-[200px] border-2 border-[#36c23f] max-lg:ml-0 text-[1.1rem] font-semibold'>Explore Plan</button></a>
     </div>
     </div>
 
