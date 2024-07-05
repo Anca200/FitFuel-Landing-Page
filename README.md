@@ -1,8 +1,6 @@
-# React + Vite
+<h1>Fit Fuel Landing Page</h1>
+Live at ->  <a href="https://fitfuel-landing-page.netlify.app/">Live</a>
+ <hr/>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ 
+![full page](https://github.com/Anca200/FitFuel-Landing-Page/assets/158541722/1b4d99a7-d32e-4c60-a13f-1ed1ffa0c49b)
