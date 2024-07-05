@@ -13,7 +13,9 @@ const Contact = () => {
  id="contact"
  className='w-full h-[300px] bg-bg-contact mt-[200px] bg-no-repeat bg-cover bg-fixed relative max-lg:h-auto  '>
 
-<div className='flex  relative max-lg:text-center'>
+<div
+      data-aos="fade-up"
+className='flex  relative max-lg:text-center'>
 <div>
 <h2 className='text-white text-[4rem] font-semibold mt-[30px]'>Summer Menu</h2>
 <p className='text-white text-[2rem] ml-[20px]'>Give Us a Call: <br></br> 123-456-789</p>
@@ -23,21 +25,21 @@ const Contact = () => {
     <img src={dish} className='object-cover drop-shadow-lg'/>
     </div>
 </div>
-<img src={avocado}
+<img src={avocado}      data-aos="fade-up"
 className='absolute top-[400px] left-[50px] rotate-[60deg] max-lg:hidden'
 />
-<img src={orange}
+<img src={orange}      data-aos="fade-up"
 className='absolute top-[500px] w-[70px] left-[300px] max-lg:hidden'
 />
-<img src={kiwi}
+<img src={kiwi}      data-aos="fade-up"
 className='absolute right-[50px] top-[400px] max-lg:hidden'
 />
-<img src={lettuce}
+<img src={lettuce}      data-aos="fade-up"
  className='absolute right-[200px] top-[330px] w-[120px] rotate-[-30deg] max-lg:hidden'
  />
  </div>
 
- <img src={salad}
+ <img src={salad}      data-aos="fade-up"
  className='mt-[100px] w-[700px] object-cover m-auto max-lg:w-[95%]'
  />
 

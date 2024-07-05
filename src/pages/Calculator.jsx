@@ -129,8 +129,12 @@ export class EntryForm extends React.PureComponent{
     render() {
         return (
           <div id="calculator"> 
-            <h2 className='text-center font-bold text-[3rem] mt-[100px] text-[#004d2eb3]'>Calculate Your Calories</h2>
-            <div className="w-[500px] h-auto bg-[#004d2eb3] text-center items-center mt-[100px] overflow-hidden m-auto rounded-[20px] text-black max-lg:w-[95%]">
+            <h2
+                  data-aos="fade-up"
+            className='text-center font-bold text-[3rem] mt-[100px] text-[#004d2eb3]'>Calculate Your Calories</h2>
+            <div 
+                  data-aos="fade-up"
+            className="w-[500px] h-auto bg-[#004d2eb3] text-center items-center mt-[100px] overflow-hidden m-auto rounded-[20px] text-black max-lg:w-[95%]">
                 <form>
                     <p className='font-semibold text-[1.5rem] mt-[20px] text-white'>Select unit of measurement:</p>
                     <div className="measurement-choice">

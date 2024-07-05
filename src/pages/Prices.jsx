@@ -6,8 +6,12 @@ const Prices = () => {
   <div 
   id="prices"
   className="pt-5 bg-[#004d2eb3] mt-[300px] mb-[200px]" >
-  <div className="mx-auto pb-20 mt-4 max-w-7xl px-6 lg:px-8">
-    <div className ="mx-auto max-w-4xl text-center">   
+  <div
+        data-aos="fade-up"
+  className="mx-auto pb-20 mt-4 max-w-7xl px-6 lg:px-8">
+    <div
+         
+    className ="mx-auto max-w-4xl text-center">   
     <h1 className="text-base font-semibold leading-7 text-white">Pricing</h1>
       <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">Invest in Your Health Today: Affordable Plans for Every Lifestyle!</p>
     </div>

@@ -1,14 +1,24 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import hero_img from "../assets/hero_img2.png";
 import leaf3 from "../assets/leaf3.png"
 import leaf2 from "../assets/leaf2.png"
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+ },[])
   return (
    <>
-   <div className='flex justify-between h-[95vh] w-full relative max-lg:flex-col '>
+   <div 
+   
+   className='flex justify-between h-[95vh] w-full relative max-lg:flex-col '>
     <div className=' w-[60%] bg-[white] max-sm:w-full max-sm:h-screen max-xl:w-full max-lg:h-screen text-[#1B5E20] border-b-[10px] border-[#004d2eb3]'>
-    <div className='w-[500px]  mt-[150px] ml-[100px] max-lg:ml-0 max-lg:p-[20px] max-lg:w-full max-lg:text-center max-sm:mt-[100px] max-xl:w-full max-xl:mt-[100px] '>
+    <div
+      data-aos="fade-right"
+         data-aos-duration="1000"
+    className='w-[500px]  mt-[150px] ml-[100px] max-lg:ml-0 max-lg:p-[20px] max-lg:w-full max-lg:text-center max-sm:mt-[100px] max-xl:w-full max-xl:mt-[100px] '>
       <h2 className='text-center text-[2rem] mb-[10px] font-semibold'>Discover Your Path to Wellness</h2>
       <h3 className='text-center text-[1.3rem] mb-[20px] text-[#2cd838] '>Personalized Nutrition Plans <br></br>Tailored Just for You</h3>
       <p className='leading-7 text-center'>

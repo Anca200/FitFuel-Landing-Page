@@ -15,11 +15,16 @@ const Recipes = () => {
   return (
    <>
    <div
+  
    id="recipes"
    className='w-full h-auto mt-[200px] items-center text-[#004d2eb3]'>
-    <h2 className='text-center text-[3rem] font-bold'>Recipes</h2>
+    <h2 
+          data-aos="fade-up"
+    className='text-center text-[3rem] font-bold'>Recipes</h2>
 
-    <div className='flex justify-center gap-[50px] mt-[100px] max-lg:flex-col max-lg:m-auto'>
+    <div 
+          data-aos="fade-up"
+    className='flex justify-center gap-[50px] mt-[100px] max-lg:flex-col max-lg:m-auto'>
         <div className='w-[300px] h-auto bg-white relative text-center rounded-[20px] p-[20px] shadow-lg max-lg:m-auto '>
          <h2 className='font-semibold text-[1.3rem] mt-[20px] mb-[20px]'>Healthy Veggie <br></br> Ramen</h2>
          <ul className='leading-8 w-[250px] m-auto'>
@@ -94,16 +99,22 @@ const Recipes = () => {
 
     <div className='w-full h-[500px] bg-[#004d2eb3] mt-[200px] flex gap-[20px] justify-between items-center relative background2 max-lg:h-auto max-lg:flex-col'>
  <div>
- <h2 className='text-[3.5rem] ml-[20px] mt-[50px] text-white drop-shadow-2xl max-lg:text-center '><span className='font-bold'>Fresh & Healthy </span></h2>
+ <h2
+       data-aos="fade-up"
+ className='text-[3.5rem] ml-[20px] mt-[50px] text-white drop-shadow-2xl max-lg:text-center '><span className='font-bold'>Fresh & Healthy </span></h2>
 
-<div className='w-[400px] h-[400px] relative max-lg:w-[95%]'>
+<div 
+      data-aos="fade-up"
+className='w-[400px] h-[400px] relative max-lg:w-[95%]'>
   <img src={recipes_img}
   className='rounded-[10px] drop-shadow-2xl absolute  top-[-50px]'
   />
 </div>
  </div>
 
-<div className='grid grid-cols-3 mr-[150px] gap-y-[100px] gap-x-[55px] text-[black] max-lg:grid-cols-1 max-lg:m-auto'>
+<div 
+      data-aos="fade-up"
+className='grid grid-cols-3 mr-[150px] gap-y-[100px] gap-x-[55px] text-[black] max-lg:grid-cols-1 max-lg:m-auto'>
 
  {/* item 1*/}
 <div className='w-[150px] h-[150px] bg-yellow-200 rotate-[-6deg] drop-shadow-2xl rounded-[10px] relative hover:scale-[1.25] transition duration-150 ease-in '>
